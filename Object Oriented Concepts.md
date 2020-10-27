@@ -144,7 +144,7 @@
 | 概念 | A uses-a B                                | A has-a B                  | A owns-a B                                               | Ｂ is-part-of Ａ           | B is-a A                    |
 | 說明 | A 使用 B。                                | A 有 B。                   | A 擁有 B                                                 | Ｂ 是 Ａ 的一部分          | B 是 A                      |
 | UML  | 虛線箭頭                                  | 實線箭頭                   | 空心菱形（菱形放在主體邊）                               | 實心菱形（菱形放在主體邊） | 實線三角形箭頭              |
-|      | Ａ -----> B                               | A -----> B                 | A ◇------> B                                             | A ◆-----> B                | A ◁------ B                 |
+|      | Ａ -----> B                               | A ~~-----~~> B             | A ◇~~------~~> B                                         | A ◆~~-----~~> B            | A ◁~~------~~ B             |
 | 範例 | Window（A）使用 Window Closing Event（B） | Window（A） 有 Cursor（B） | 車子（A）擁有輪子、引擎（B），但輪子跟引擎可以單獨存在。 | 手指（B）是手（A）的一部分 | Cat（B） 是 Animal（A）     |
 
 ## Role and Multiplicity
